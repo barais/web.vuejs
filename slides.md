@@ -170,8 +170,9 @@ layout: two-cols-header
 
 # Transition Effects
 
+
 ::left::
-<Transform :scale="0.95">
+<Transform :scale="0.90">
 
 ```html
 <script src="https://cdnjs.cloudflare.com/
@@ -298,6 +299,7 @@ npm run dev
 
 1 composant = 1 fichier .vue avec trois parties (*SFC (single file component)*)
 
+<Transform :scale="0.72" >
 
 ```vue
 <script setup lang="ts">
@@ -331,6 +333,8 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 </style>
 ```
+
+</Transform>
 
 ---
 
